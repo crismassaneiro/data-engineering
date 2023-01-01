@@ -1,0 +1,58 @@
+Data Lake vs Data Warehouse
+
+    Quando o assunto é Big Data, normalmente nomes como Data Warehouse e Data Lake são mencionados. Como ambos são locais de armazenamento de dados, geralmente, costumam ser confundidos.
+
+Tipos de dados
+
+Estruturados
+
+    A primeira categoria são dados que possuem um padrão específico. Eles existem em formatos pré-definidos, como uma tabela com campos fixados. Além disso, dados estruturados são fáceis de analisar e de pesquisar quando comparados com dados não-estruturados.
+
+    A linguagem SQL é utilizada para a consulta e construção de bases de dados estruturadas que podem se relacionar com outras bases de dados também estruturadas. Exemplos de campos presentes em dados estruturados são: nomes, endereços, CEP, telefone etc.
+
+Não estruturados
+
+    A segunda categoria são dados não estruturados. Podem ter uma estrutura interna, mas não de uma forma pré-definida. Essa definição fica mais clara quando vemos que exemplos de dados não estruturados apresentam uma variedade maior.
+
+    Texto, atividades em redes sociais, e-mails, gravações de câmeras de segurança e músicas são exemplos típicos de dados não estruturados. A variedade e falta de estrutura pré-definida torna a sua análise mais difícil. Além disso, por serem não estruturados, esses dados são armazenados em bancos de dados não relacionais, chamados de NoSQL.
+
+Semi estruturados
+
+    Dados semi-estruturados pertencem a uma terceira categoria que se posiciona entre as outras duas.
+
+    Eles podem ser pensados como um tipo de dado estruturado que não se encaixa na estrutura de uma base de dados relacional, mas que ainda considera sistemas de nomeação de campos, permitindo a separação de diferentes elementos e tornando a pesquisa mais fácil.
+
+Definição de Data Warehouse e Data Lake
+
+    Bases de dados são tipicamente estruturadas e organizadas para eventuais consultas, mas não são desenvolvidas para que possamos realizar a análise dos dados que as compõem.
+
+    A escolha de um Data Warehouse ou Data Lake pode estar relacionada aos dados que iremos extrair e aos procedimentos que iremos realizar na sequência.
+
+    Por isso, precisamos entender em detalhe como cada um funciona.
+
+Data Warehouse
+
+    Um Data Warehouse é composto por diversas bases de dados - normalmente bases estruturadas, e é utilizado para o business intelligence (BI). Por armazenarem dados processados, economizam espaço de armazenamento com dados que correm o risco de nunca serem usados.
+
+    Através do Data Warehouse, conseguimos consumir todas essas bases de dados e criar uma camada otimizada para realizar a análise de dados com ferramentas como o Power BI.
+
+    A organização dessas bases de dados (esquema) é feita durante a sua importação.
+
+Data lake
+
+    O Data Lake pode ser visto como um repositório centralizado para armazenar dados estruturados e não estruturados.
+
+    Ele pode armazenar dados não processados sem que haja a necessidade de nenhum tipo de transformação. Além disso, pode guardar qualquer tipo de formato, como imagens, textos, vídeos, modelos de machine learning e dados coletados em tempo real, implicando diretamente na sua capacidade de armazenamento.
+
+    O processamento pode ser feito na exportação e, dessa forma, a organização dos dados é feita na leitura. Por mais que ele seja de rápida leitura, pode armazenar tantos dados variados que acaba gerando um pântano de dados se não forem implementadas técnicas para manter a qualidade e a governança dos dados.
+
+    Geralmente são explorados pelos cientistas de dados e analistas de BI.
+
+    Data Lake vs Data Warehouse
+    Tanto data warehouses quanto data lakes podem armazenar dados, mas existem diferenças em relação a escala e número de fontes de dados. Uma organização pode precisar de um data lake, data warehouse e bases de dados para diferentes usos.
+
+Em resumo:
+
+    O Data Warehouse é um local centralizado para dados estruturados e possui características conhecidas com antecedência para a sua construção e processo de extração, transformação e carregamento de dados.
+
+    O Data Lake tem uma proporção muito maior onde dados de várias fontes podem se encontrar. Todos os tipos de dados são permitidos, não importando se são estruturados ou não.
